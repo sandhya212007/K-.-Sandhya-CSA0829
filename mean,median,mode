@@ -1,0 +1,8 @@
+import statistics
+data = [4,2,7,9,2,6,2]
+mean = satistics . mean data
+print("mean:",mean)
+median = statistics.median(data)
+print("median:",median)
+mode = statistics.mode(data)
+print("mode:",mode)
