@@ -1,5 +1,0 @@
-from itertools import permutations
-num = input("enter a number:")
-unique = set(permutations (num))
-for p in unique
-print(''.join(p))
