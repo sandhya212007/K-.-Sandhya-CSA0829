@@ -1,5 +1,0 @@
-p = int(input("enter value:"))
-n = int(input("enter vaue:"))
-r = int(input("enter value:"))
-si = p*n*r/100
-print("simple interest =",si)
