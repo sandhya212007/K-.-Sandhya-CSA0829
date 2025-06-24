@@ -1,0 +1,3 @@
+my_list = [5, 2, 8, 1, 9]
+smallest = min(my_list)
+print("Smallest number is:", smallest)
