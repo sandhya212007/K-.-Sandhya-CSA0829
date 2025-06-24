@@ -1,4 +1,0 @@
-numbers = [7, 2, 5, 3, 9, 1]
-k = 3
-numbers.sort()
-print(f"{k}th smallest element is:", numbers[k - 1])
