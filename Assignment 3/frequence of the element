@@ -1,0 +1,6 @@
+from collections import Counter
+
+arr = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+c = Counter(arr)
+print(c)
+print("Max:", c.most_common(1)[0])
