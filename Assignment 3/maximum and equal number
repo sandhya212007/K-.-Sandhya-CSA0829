@@ -1,0 +1,10 @@
+m = 17  
+n = 3   
+x = 2   
+remaining = m % n
+peter_vehicles = remaining - x
+print("Peter gets", peter_vehicles)
+if peter_vehicles % 2 == 0:
+    print("Peter is luckier")
+else:
+    print("Peter is not luckier")
