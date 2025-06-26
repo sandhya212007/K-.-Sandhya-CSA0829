@@ -1,0 +1,4 @@
+s1 = "what"
+s2 = "watch"
+count = sum(1 for a, b in zip(s1, s2) if a == b)
+print(count)
