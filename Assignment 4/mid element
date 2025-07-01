@@ -1,0 +1,8 @@
+arr = sorted(list(map(int, input("Enter sorted array elements: ").split())))
+n = len(arr)
+mid = n // 2
+
+if n % 2 == 0:
+    print("Two middle elements:", arr[mid - 1], "and", arr[mid])
+else:
+    print("Middle element:", arr[mid])
