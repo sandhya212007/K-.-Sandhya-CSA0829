@@ -1,0 +1,5 @@
+arr = list(map(int, input().split()))
+print("Frequencies:")
+for i in set(arr):
+    print(i, ":", arr.count(i))
+print("Highest frequency element:", max(set(arr), key=arr.count))
