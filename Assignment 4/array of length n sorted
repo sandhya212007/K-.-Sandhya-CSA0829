@@ -1,0 +1,3 @@
+arr = list(map(int, input("Enter rotated sorted array: ").split()))
+rotations = arr.index(min(arr))
+print("Array is rotated", rotations, "times")
