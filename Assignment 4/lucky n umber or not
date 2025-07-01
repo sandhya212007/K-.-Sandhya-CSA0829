@@ -1,0 +1,12 @@
+def isLucky(n, counter=2):
+    if counter > n:
+        return True
+    if n % counter == 0:
+        return False
+    return isLucky(n - n // counter, counter + 1)
+
+num = int(input("Enter a number: "))
+if isLucky(num):
+    print("Lucky Number")
+else:
+    print("Not a Lucky Number")
