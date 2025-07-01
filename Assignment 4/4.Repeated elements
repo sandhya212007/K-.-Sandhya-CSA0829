@@ -1,0 +1,5 @@
+arr = list(map(int, input("Enter array elements: ").split()))
+print("Repeated elements:")
+for i in set(arr):
+    if arr.count(i) > 1:
+        print(i, end=" ")
