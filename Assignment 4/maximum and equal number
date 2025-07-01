@@ -1,0 +1,9 @@
+m = int(input("Total vehicles: "))
+n = int(input("Total children: "))
+
+x = m % n
+print(f"Peter gets {x} vehicles")
+if x % 2 == 0:
+    print("Peter is luckier")
+else:
+    print("Peter is not luckier")
