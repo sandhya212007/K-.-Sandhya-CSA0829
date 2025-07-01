@@ -1,0 +1,5 @@
+n = int(input("Enter number of steps: "))
+a, b = 1, 1
+for _ in range(n):
+    a, b = b, a + b
+print("Ways to reach top:", a)
